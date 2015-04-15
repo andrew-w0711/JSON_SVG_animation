@@ -1,0 +1,129 @@
+body { overflow: hidden; background-color: #286478; }
+bg-mobile{ display: none;}
+.vertical { position: relative; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); }
+
+.site-info { max-width: 820px; margin: 0 auto; }
+
+.countrywise-transaction { padding: 0; background-image: url('../images/bg-marquee-1.png'); background-size: contain; }
+
+.transaction-list { display: inline-block; margin-right: 10px; font-size: 20px;font-family: 'dosisbold'; height: 45px; line-height: 55px; }
+.transaction-list strong, .transaction-list span { font-size: inherit; }
+.transaction-list strong { margin-right: 5px; }
+.transaction-list sub { font-size: 0.7em; }
+.asterisk { background: url('../images/pink1.png'); background-size: cover; width:10px; height:10px; 
+            margin-left: -5px; margin-top: -5px;
+           position:absolute; z-index:9999999; }
+.pink-class .dot,.pink-class .amount{ background-color: #ff3ed1 ;color: #fff;}
+.light-blue-class .dot,.light-blue-class .amount{ background-color: lightblue;color: #fff;}
+.green-class .dot,.green-class .amount{ background-color: #01d561; color: #fff;}
+.pink-class.red-text .dot,.pink-class.red-text .amount{ background-color: #ff3ed1 ;color: #fff;}
+.animation-wrapper.retail.yellow-class .dot,.animation-wrapper.retail.yellow-class .amount{ background-color: #fefe02; color: #3f3f00;}
+.finish-wrapper {
+  position: absolute;
+  z-index: 999999;
+  top: -20px;
+  width: 200px;
+}
+.red-text .country-name {
+    color: red !important;
+}
+.country-name { 
+  color: #ffffff;
+  text-transform: uppercase;
+/*  width: 200px;*/
+  text-align: center;
+  margin-left: -100px;
+  top: 20px;
+  position: absolute;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+.amount {
+  background: yellow;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  position: absolute;
+  left: 10px;
+  top: -30px;
+  line-height: 50px;
+}
+.amount span{ padding-bottom: 10px; display: block; text-align: center;}
+.amount span.currency-symbol { font-size: 1.2em; line-height: 40px; font-weight: bold; }
+
+.phone {
+  width: 20px;
+  height: 28px;
+  left: -10px;
+  background-repeat: no-repeat;
+  background-image: url('../images/phone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: -13px;
+  margin: 0;
+}
+
+
+.dot { -ms-transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+ #site-wrapper { opacity: 0; }
+/*.dot80 + .finish-wrapper{ margin-top: -23%;}
+.dot70 + .finish-wrapper{ margin-top: -55px;}
+.dot60 + .finish-wrapper{ margin-top: -21%;}*/
+
+@media screen and (max-width:720px) {
+    .bg-mobile.bg{ display: block;}
+    .bg{ display: none;}
+    .wrapper{background-image: url('../images/bg-mobile.png'); background-size: cover; background-position: center;}
+    div#setting{ display: none;}
+    
+    .transaction-label .transaction,.transaction-label .live{ padding: 2% 0;}
+    .svgdatacontainer{ max-width: 100% !important; background-image: url('../images/map-alpha.png'); background-size: 100% 100%; background-position: center; height:100%;}
+    .service-info { display: none; }
+    .timezone { display: none; }
+    .transaction-live { display: none; }
+    .countrywise-transaction { display: none; }
+    .messages.countrywise-transaction { display: none; }
+    body{ background: #286478;}
+    .bg{ opacity: 0;}
+    /*.container { background-image: url('../images/map-alpha.png'); background-size: cover; background-position: center; }*/
+    .container {background-image: none; }
+    
+    .site-info { margin: 0; }
+    .total-since-midnight { text-align: left; margin-left: 15px; margin-bottom: 10px; }
+    .total-transactions span { font-size: 1em; }
+    .total-transactions .data-first, .total-transactions .data-second, .total-transactions .data-third { font-size: 1.6em; }
+    
+    .average-per-day { margin-right: 15px; margin-bottom: 10px; text-align: right; }
+    
+    #rotate-message { display: none; }
+    
+    #mobile-menu { position: absolute; top: 20px; left: 20px; z-index: 1; }
+    #mobile-menu span { width: 25px; height: 3px; margin-bottom: 4px; background: #ffffff; display: block; }
+    
+    
+    .amount{ width: 30px; height: 30px; top: -20px; line-height: 40px; font-size: 12px;}
+    .amount span{ font-size: 8px; line-height: 18px; }
+    .amount span.currency-symbol { font-size: 12px; line-height: 30px; }
+    
+    .country-name { font-size: 10px; }
+}
+
+@media screen and (max-width:720px) and (orientation : portrait) {
+
+    .svgdatacontainer{ display: none; max-width: 100% !important;}
+    .site-info{ margin: 10px;}
+    .wrapper { -webkit-filter: blur(10px); opacity: 0.4; transition: all 0.5s; }
+    #rotate-message { display: block; width: 100%; height: 100%; position: absolute; z-index: 1; background-image: url('../images/icon-rotate.png'); background-position: center center; background-size: 234px; background-repeat: no-repeat; }
+    #mobile-menu { display: none; }
+}
+
+@media screen and (max-width:1024px) {
+.bxslider.scroller .transaction-list{ display: inline; position: relative; top: 4px;}
+}

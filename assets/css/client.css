@@ -1,0 +1,151 @@
+
+
+body {
+/*  background-color: black;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  
+    -webkit-font-smoothing: antialiased;*/
+}
+
+.animation-wrapper {
+    position: absolute;
+}
+
+.dot{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity:0;
+}
+.dot:first-child { display: none; }
+
+.dot.animate {
+  -webkit-animation: trailFade 2s linear 0s; /* Chrome, Safari, Opera */
+  animation: trailFade 2s linear 0s;
+}
+
+@-webkit-keyframes trailFade {
+    0% {opacity: 1; }
+    50% {opacity: 1; }
+    100% {opacity: 1; }
+}
+
+/* Standard syntax */
+@keyframes trailFade {
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+.animation-wrapper.retail .amount {
+    background: #fc3ed1;
+    color: #ffffff;
+}
+
+.animation-wrapper.retail .dot {
+    background: #fc3ed1;
+    
+}
+
+
+
+.animation-wrapper.retail .p2p {
+    background: #fc3ed1;
+    color: #ffffff;
+}
+
+.country {
+  position: absolute;
+}
+
+.country-wrapper {
+  width: 120px;
+  position: relative;
+  left: -50%;
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+}
+
+.country-wrapper span {
+  transition: all 1s;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: none;
+}
+
+.finish-wrapper {
+  position: relative;
+  z-index: 999999;
+  top: -20px;
+  width: 0;
+}
+
+.country-name { 
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 200px;
+  text-align: center;
+  margin-left: -100px;
+  top: 20px;
+  position: relative;
+/*  font-size: 24px;*/
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.amount {
+  background: yellow;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+/*  font-size: 20px;*/
+  position: absolute;
+  top: -50px;
+}
+
+.amount span {
+    display: block;
+    line-height: 1em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-size: 11px;
+    line-height: 23px;
+}
+
+.phone {
+  width: 20px;
+  height: 35px;
+  margin-left: -10px;
+  background-image: url('../../img/icon-phone.png');
+  background-size: contain;
+  position: absolute;
+  top: -25px;
+}
+
+button {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #666666;
+    color: #666666;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 50px;
+    margin-left: -44px;
+    left: 50%;
+}
+
+.messages.countrywise-transaction { margin: 0; }
+
+.pink-class .dot,.pink-class .amount{ background-color: pink ;color: #fff;}
+.light-blue-class .dot,.light-blue-class .amount{ background-color: lightblue;color: #fff;}
+.green-class .dot,.green-class .amount{ background-color: green;color: #fff;}
+.yellow-class .dot,.yellow-class .amount{ background-color: yellow; color: #fff;}

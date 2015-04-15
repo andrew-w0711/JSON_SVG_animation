@@ -1,0 +1,92 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Handheld Devices
+ 2.) Media Query for Tablet
+ 3.) Media Query for mobile
+ ===============================================*/
+/*
+ 1.) Media Query for Handheld Devices
+ ===============================*/
+
+#run-animation{ display: none;}
+
+@media only screen and (max-width : 1119px) {
+/* Styles */
+}
+
+
+/*
+ 2.) Media Query for Tablet
+ ===============================*/
+@media only screen and (min-width : 768px) and (max-width : 1002px) {
+    
+    
+     .timezone{ display: none;}
+/* Styles */
+}
+
+
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width : 767px){
+/* Mobile Grids */
+
+
+   .timezone,.transaction-live,.site-info .service-info{ display: none;}
+
+	.container_12 [class*="grid_"]{
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+    
+    
+    
+    
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 0px) 
+and (max-width : 767px) 
+and (orientation : portrait) {
+/* Styles */
+.container{ background-position: 50% 0;}
+
+}
+
+/* iP0ds (portrait) ----------- */
+@media only screen 
+and (min-width : 0px) 
+and (max-width : 479px) {
+/* Styles */
+.container{ background-position: 50% 0;}
+
+h2 { font-size: 1.4em;}
+.switch{ margin-top:5px;}
+.inner-block { min-width:300px; max-width: 300px; width: 100%;}
+.action-area,.slider-section strong,.slider-container .back-bar .pointer-label{ font-size: 1em;}
+
+}
+@media only screen 
+and (min-width : 0px) 
+and (max-width : 720px) {
+   #mobile-pop{ visibility: visible;}
+#desk-pop{ visibility: hidden;} 
+    
+}
+
+
+#cancel-setting1{ width: 17px; height: 17px;}
+#save-setting1{ width: 19px; height: 14px;}

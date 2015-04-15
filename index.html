@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <title>ding.com</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="assets/css/global.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen">
+        <link rel="stylesheet" href="assets/css/animate.css" />
+        <link rel="stylesheet" href="assets/css/client.css" />
+        <link rel="stylesheet" href="assets/css/v7.css" />
+        <link rel="stylesheet" href="assets/css/jquery.range.css" />
+
+        <!--[if lt IE 9]>
+            <script src="assets/js/html5shiv.min.js"></script>
+        <![endif]-->
+        <!--[if lt IE 8]>
+        <link rel="stylesheet" type="text/css" href="assets/css/ie7.css" media="screen">
+        <![endif]-->
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<!--    <script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+   <script type="text/javascript" src="assets/js/jscroller-0.4.js"></script>
+   <script src="assets/js/jquery.lettering.js"></script>
+   <script src="assets/js/jquery.textillate.js"></script>-->
+    <script src="assets/js/jquery.mb.audio.js" type="text/javascript"></script>
+	<!-- For Mobile Sounds !-->
+   <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
+  
+   
+<!--  <script type="text/javascript" src="assets/js/jquery.marquee.js"></script>-->
+  <script src="assets/js/gridanimation.js"></script>
+  <script src="assets/js/jquery.range.js"></script>
+  <script src="assets/js/tweecool.js"></script>
+ 
+
+        <script>
+            $(window).load(function(){
+                setTimeout(function() {
+                    $(".loader").css("opacity","0");
+                    $("#site-wrapper").css("opacity","1");
+                    setTimeout(function() {
+                        $(".loader").remove();
+                    }, 1000);
+                }, 1000);
+            });
+        </script>
+    </head>
+    <body>
+        <div class="loader vertical" title="0">
+            <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+                    s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+                    c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z">
+                </path>
+                <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+                    C22.32,8.481,24.301,9.057,26.013,10.047z" transform="rotate(61.4218 20 20)">
+                </path>
+            </svg>
+        </div>
+
+        <div id="site-wrapper">
+        
+            <div id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="rotate-message"></div>
+            <img src="assets/images/bg.png" class="bg" />
+            <img src="assets/images/bg-mobile.png" class="bg bg-mobile" />
+        
+        <!--Page Wrapper Start-->
+        <div class="wrapper">
+            <div id="setting">&nbsp;</div>
+            <div class="container">
+                <div class="svgdatacontainer"></div>
+                <div id="run-animation">Run</div>
+                <header class="header">
+                    <aside class="transaction-live">
+                        <div class="transaction-label">
+                            <div class="ani"></div>
+                        </div>
+                        <div class="transaction-current">
+                            <div class="date-box">&nbsp;</div>
+                            <div class="time-box">&nbsp;</div>
+                        </div>
+                    </aside>
+                    <div class="site-info">
+                        <div class="logo">
+                            <h1>
+                                <img src="assets/images/ding-logo-2.png">
+                            </h1>
+                        </div>
+                        <div class="service-info">
+                            Connected to
+                            <span>300 operators</span> in
+                            <span>130 countries </span>with a reach of
+                            <span> 3.5 billion phones</span>
+                        </div>
+                    </div>
+
+                    <aside class="timezone">
+                        <div  data-id="pink-clock" style="overflow:hidden;padding:0;" class="clock-first">
+                            <div style="float:right;width:110px; padding-top:27px; padding-right: 10px;">
+                                <span id="pinkwatchs">00:00:00</span>
+                                <span id="pinkwatch-bottom">00:00:00</span>
+                            </div>
+                            <div style="float: left;">
+                                <div style=" margin-left: -6px; margin-top: -44px;" class="newClock" >
+                                    <div id="pink" style="transform: rotate(0deg);"><img src="assets/images/sechand.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="overflow:hidden;padding: 0;"  data-id="blue-clock" class="clock-second">
+                            <div style="float:right;width:110px; padding-top:27px; padding-right: 10px;">
+                                <span id="bluewatchs">00:00:00</span>
+                                <span id="bluewatch-bottom">00:00:00</span>
+                            </div>
+                            <div style="float: left;">
+                                <div style=" margin-left: -6px; margin-top: -44px;" class="newClock">
+                                    <div id="blue" style="transform: rotate(0deg);">
+                                        <img src="assets/images/sechand.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="overflow:hidden;padding: 0;" data-id="total-clock" class="clock-third">
+                            <div style="float:right;width:110px; padding-top:27px; padding-right: 10px;">
+                                <span  id="totalwatchs">00:00:00</span>
+                                <span id="totalwatch-bottom">00:00:00</span>
+                            </div>
+                            <div style="float: left;">
+                                <div style=" margin-left: -6px; margin-top: -44px;" class="newClock">
+                                    <div id="grey" style="transform: rotate(0deg);">
+                                        <img src="assets/images/sechand.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </header>
+                <!--Header Section End-->
+
+                <!--Content Area Start-->
+                <div class="content"></div>
+                <!--Content Area End-->
+            </div>
+
+            <!--Footer Section Start-->
+            <footer class="footer">
+                <div class="total-transactions">
+                    <aside data-id="total-since-mid" class="total-since-midnight">
+                        <span>total since midnight</span>
+                        <div class="data-first">1,363</div>
+                        <div class="data-second">9,022</div>
+                        <div class="data-third">39,022</div>
+                    </aside>
+
+                    <aside data-id="ave-per-day" class="average-per-day">
+                        <span>average per day</span>
+                        <div class="data-first">4,378</div>
+                        <div class="data-second">31,234</div>
+                        <div class="data-third">70,953</div>
+                    </aside>
+                </div>
+
+                <div  data-id="total-per-operator" class="scroller_container countrywise-transaction">
+                    <div class="scroller bxslider">
+                        <div class="transaction-section-data">
+                            <div class="transaction-list">
+                                <strong>&nbsp; </strong>
+                                <sub>&nbsp;</sub>
+                                <span>&nbsp;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-id="twitter-feed" class="scroller_container messages countrywise-transaction">
+                    <div class="scroller bxslider2">
+                        <div style="min-height:10px;" id="message-section"></div>
+                    </div>
+                </div>
+            </footer>
+
+             <div class="animation-wrapper">&nbsp;</div>
+        </div>
+
+
+    <div id="mobile-pop" class="pointers" style=" opacity:0; ">
+
+                 <div class="form-section">
+            <div class="inner-block">
+                <h2><span  id="cancel-setting1">&nbsp</span> setting <span id="save-setting1">&nbsp</span></h2>
+
+                    <div id="setting-area" class="form-area">
+                <div class="input-area">
+                        <ul class="action-area">
+                            <li><span>Sound</span>
+                                <div class="switch">
+                                        <input id="sound" class="cmn-toggle cmn-toggle-round" checked="" type="checkbox">
+                                        <label for="sound"></label>
+                                 </div>
+                            </li>
+                            <li>
+                                <span>Clock One</span>
+                                <div class="switch">
+
+                                <input id="pink-clock" class="cmn-toggle cmn-toggle-round" checked="" type="checkbox">
+                                <label for="pink-clock"></label>
+                                </div></li>
+                            <li>
+                                <span>Clock Two</span>
+                                <div class="switch">
+
+                                    <input id="blue-clock" class="cmn-toggle cmn-toggle-round" checked="" type="checkbox">
+                                    <label for="blue-clock"></label>
+                                </div>
+                            </li>
+                            <li><span>Clock Three</span>
+                                <div class="switch">
+                                    <input class="cmn-toggle cmn-toggle-round" id="total-clock" checked="" type="checkbox">
+                                <label for="total-clock"></label>
+                                </div></li>
+                            <li>
+                                <span>Average per day</span>
+                                <div class="switch"><input class="cmn-toggle cmn-toggle-round" id="ave-per-day" checked="" type="checkbox">
+                                    <label for="ave-per-day"> </label>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="action-area" style="float:right;">
+                            <li><span>Total since midnight</span>
+                                <div class="switch"><input class="cmn-toggle cmn-toggle-round" id="total-since-mid" checked="" type="checkbox">
+                                <label for="total-since-mid"></label>
+                                </div></li>
+                            <li><span>twitter feed</span>
+                                <div class="switch"><input class="cmn-toggle cmn-toggle-round" id="twitter-feed" checked="" type="checkbox">
+                                <label for="twitter-feed"></label>
+                                </div></li>
+                            <li><span>totals per operators</span>
+                                <div class="switch"> <input class="cmn-toggle cmn-toggle-round" id="total-per-operator" checked="" type="checkbox">
+                                <label for="total-per-operator"></label>
+                                </div></li>
+                            <li><span>Mobile icon</span>
+                                <div class="switch"> <input class="cmn-toggle cmn-toggle-round" id="mobile-icon" checked="" type="checkbox">
+                                <label for="mobile-icon"></label>
+                                </div></li>
+                            <li><span>.COM transactions</span>
+                                <div class="switch"><input class="cmn-toggle cmn-toggle-round" id="com-trans" type="checkbox">
+                                <label for="com-trans"> </label>
+                                </div></li>
+                        </ul>
+
+
+
+             </div>
+
+
+                        <div class="slider-section">
+                            <strong>Speed regulation</strong>
+                              <div class="single-slider--">
+
+                    <input type="hidden" class=" single-slider slider-input" value="1" />
+                </div>
+                        </div>
+
+
+
+
+
+
+           </div>
+            </div>
+         </div>
+
+    </div>
+  
+  <div id="desk-pop" class="pointers" style=" opacity:0;">
+            
+             <div class="form-section">
+       	<div class="inner-block">
+       		<h2>setting</h2>
+                
+                <div id="setting-area" class="form-area">     
+       		<div class="input-area">
+                    <div class="clock-text"><span>Clock 01 <input id="pink-clock" checked="" type="checkbox"></span> </div>
+       			<div class="clock-text"><span>Clock 02 <input id="blue-clock" checked="" type="checkbox"></span> </div>
+       			<div class="clock-text"><span>Clock 03 <input id="total-clock" checked="" type="checkbox"></span> </div>
+       			<div class="clock-text area1">
+                            <span>Total since midnight <input id="total-since-mid" checked="" type="checkbox"></span>
+                            <span>Average per day <input id="ave-per-day" checked="" type="checkbox"></span>
+                        </div>
+       		
+       			<div class="clock-text area2"><span>twitter feed<input checked="" id="twitter-feed" type="checkbox"></span> </div>
+       			<div class="clock-text area2"><span>totals per operators<input id="total-per-operator" checked="" type="checkbox"></span> </div>
+       			<p>Speed regulation</p>
+       	 </div>
+       	    <div class="single-slider--">
+<!--        	    	<p>Speed regulation</p> -->
+       	    	<input type="hidden" class=" single-slider slider-input" value="1" />
+       	    </div>
+       	    
+       	    
+       	    
+       	    <div class="label-area">
+       	 	<ul>
+       	 		<li>
+       	 			<label>Sound<input id="sound" checked="" type="checkbox"></label>
+       	 		</li>
+       	 		<li>
+       	 			<label>Mobile icon<input id="mobile-icon" checked="" type="checkbox"></label>
+       	 		</li>
+       	 		<li>
+       	 			<label>.com trans only<input id="com-trans" type="checkbox"></label>
+       	 		</li>
+       	 	</ul>
+       	 </div>
+       	 
+       	 <div class="button-area">
+       	 	<input type="button" id="save-setting" value="Save">
+       	 	<input type="button" id="cancel-setting" value="Cancel">
+       	 </div>
+       </div>
+        </div>
+     </div>
+            
+    </div>
+
+</div>
+
+        <div id="audio-block">
+            <!--<audio>
+                <source src="assets/sounds/topups/DING! double_mixdown11.mp3" type="audio/mpeg">
+                <source src="assets/sounds/aac/DING! double_mixdown11.aac" type="audio/aac">
+                <source src="assets/sounds/ogg/DING! double_mixdown11.ogg" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>-->
+        </div>
+        
+        <script type="text/javascript" src="assets/js/functions.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
+        <script src="assets/js/gridanimation.js"></script>
+        <script src="assets/js/jquery.range.js"></script>
+        <script src="assets/js/tweecool.js"></script>
+        <script src="assets/js/clocks.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.8.4/TweenMax.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

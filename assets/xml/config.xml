@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration datatimeout="15" bkg_color_top="0f2032" bkg_color_bottom="285a92">
+    <baseUrl>http://www.ezescreens.com/ding/appData_ding/</baseUrl>
+	<wsdlUrl>https://ezescreens.ezetop.com:8690/api/data</wsdlUrl>
+    <assets>
+        <item name="logo_ezetop" source="assets/images/logo_ezetop.png" transparent="true" defaultsize="660,192" />
+        <item name="flags" source="assets/images/flags.png" defaultsize="30,24" />
+        <item name="logos" source="assets/images/logos.png" defaultsize="32,13" transparent="true"/>
+        <item name="topups" source="assets/images/topups.png" defaultsize="140,85" transparent="true" />
+        <item name="map" source="assets/images/map.jpg" defaultsize="1920,1080" transparent="false" />
+    </assets>
+<twitter>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+		<item name="dingme" message="Dicen que el bodeguero de la esquina es tu mejor medicina! Vamos a tomarmos un Mojito, que siempre cae bien!! ;)"/>
+	</twitter> 
+ 
+ 
+   
+  <logos assets="logos">
+    	<item id="1" asset="296,1" /> 
+    	<item id="2" asset="252,22" />
+    	<item id="3" asset="363,2" /> 
+    	<item id="4" asset="231,14" /> 
+    	<item id="5" asset="231,0" /> 
+    	<item id="6" asset="168,0" /> 
+    	<item id="7" asset="0,0" /> 
+    	<item id="8" asset="165,0" /> 
+    	<item id="9" asset="265,0" /> 
+    	<item id="10" asset="363,1" /> 
+    	<item id="11" asset="0,13" /> 
+		<item id="12" asset="33,13" /> 
+    	<item id="13" asset="132,13" /> 
+    	<item id="14" asset="65,13" /> 
+    	<item id="15" asset="378,22" /> 
+    	<item id="16" asset="363,13" /> 
+    	<item id="17" asset="396,13" /> 
+    	<item id="18" asset="232,83" /> 
+    	<item id="19" asset="264,83" /> 
+    	<item id="20" asset="164,28" /> 
+    	<item id="21" asset="0,13" /> 
+    	<item id="22" asset="296,83" /> 
+    	<item id="23" asset="296,28" />
+    	<item id="24" asset="329,28" /> 
+    	<item id="25" asset="320,83" /> 
+    	<item id="26" asset="98,42" /> 
+    	<item id="27" asset="164,42" /> 
+    	<item id="28" asset="198,42" />
+    	<item id="29" asset="363,84" />  
+		<item id="30" asset="396,84" /> 
+		<item id="31" asset="0,98" /> 
+		<item id="32" asset="265,42" /> 
+    	<item id="33" asset="297,13" /> 
+    	<item id="34" asset="33,98" /> 
+    	<item id="35" asset="65,98" /> 
+    	<item id="36" asset="65,42" /> 
+    	<item id="37" asset="99,98" /> 
+    	<item id="38" asset="132,98" /> 
+		<item id="39" asset="231,0" /> 
+    	<item id="40" asset="33,28" /> 
+    	<item id="41" asset="98,28" /> 
+		<item id="42" asset="296,13" /> 
+		<item id="43" asset="65,42" /> 
+		<item id="44" asset="320,83" /> 
+		<item id="45" asset="264,28" /> 
+		<item id="46" asset="164,98" /> 
+		<item id="47" asset="99,13" /> 
+		<item id="48" asset="297,0" /> 
+		<item id="49" asset="198,98" /> 
+		<item id="50" asset="33,55" /> 
+		<item id="51" asset="66,56" /> 
+		<item id="52" asset="98,55" /> 
+		<item id="53" asset="0,0" /> 
+		<item id="54" asset="132,55" />
+		<item id="55" asset="164,55" /> 
+		<item id="56" asset="198,55" /> 
+		<item id="57" asset="231,56" /> 
+		<item id="58" asset="198,25" /> 
+		<item id="59" asset="264,56" /> 
+		<item id="60" asset="232,98" /> 
+		<item id="61" asset="329,56" /> 
+		<item id="62" asset="363,56" /> 
+		<item id="63" asset="396,55" /> 
+		<item id="64" asset="33,42" /> 
+		<item id="65" asset="1,69" /> 
+		<item id="66" asset="33,69" /> 
+    	<item id="67" asset="265,98" /> 
+    	<item id="68" asset="296,98" /> 
+    	<item id="69" asset="132,68" /> 
+    	<item id="70" asset="165,79" /> 
+    	<item id="71" asset="330,97" /> 
+    	<item id="72" asset="231,68" /> 
+    	<item id="73" asset="264,68" /> 
+    	<item id="74" asset="296,68" /> 
+    	<item id="75" asset="363,97" /> 
+    	<item id="76" asset="395,98" /> 
+    	<item id="77" asset="0,111" /> 
+    	<item id="78" asset="33,111" /> 
+    	<item id="79" asset="66,110" /> 
+    	<item id="80" asset="65,82" /> 
+		<item id="81" asset="98,111" /> 
+		<item id="82" asset="396,196" /> 
+		<item id="83" asset="165,14" /> 
+		<item id="84" asset="131,82" /> 
+    	<item id="85" asset="164,83" /> 
+    	<item id="86" asset="199,83" /> 
+		<item id="87" asset="133,109" /> 
+		<item id="88" asset="165,110" /> 
+		<item id="89" asset="200,111" /> 		
+		<item id="90" asset="233,111" /> 
+		<item id="91" asset="266,111" /> 		
+		<item id="92" asset="299,111" /> 		
+		<item id="93" asset="332,111" /> 										
+		<item id="94" asset="365,111" /> 	
+		
+		
+		<item id="95" asset="395,111" /> 		
+		<item id="96" asset="1,126" /> 												
+		<item id="97" asset="32,125" /> 		
+		<item id="98" asset="64,125" /> 		
+		<item id="99" asset="98,125" /> 		
+		<item id="100" asset="131,125" />
+		<item id="101" asset="163,125" />
+		<item id="102" asset="196,124" />
+		<item id="103" asset="230,125" />
+		<item id="104" asset="264,124" />
+		<item id="105" asset="295,125" />
+		<item id="106" asset="328,125" />
+		<item id="107" asset="362,125" />
+		<item id="108" asset="396,125" />
+		<item id="109" asset="1,140" />		
+		<item id="110" asset="32,139" />
+		<item id="111" asset="65,140" />
+		<item id="112" asset="97,139" />
+		<item id="113" asset="131,140" />
+		<item id="114" asset="163,140" />
+
+		
+		
+		
+    </logos>
+    
+	<operators>
+<item abbr="8TZA" name="8ta South Africa" countryiso="ZA" logo="1" />
+<item abbr="AALB" name="Alfa Lebanon" countryiso="LB" logo="1" />
+<item abbr="ACIQ" name="Asia Cell Telecom Iraq" countryiso="IQ" logo="1" />
+<item abbr="AEID" name="Axis Indonesia" countryiso="ID" logo="1" />
+<item abbr="AFGM" name="Africell Gambia" countryiso="GM" logo="1" />
+<item abbr="AIIN" name="Airtel India" countryiso="IN" logo="1" />
+<item abbr="AILK" name="Airtel Sri Lanka" countryiso="LK" logo="1" />
+<item abbr="AIGH" name="Airtel Ghana" countryiso="GH" logo="1" />
+<item abbr="AIKE" name="Airtel Kenya" countryiso="KE" logo="1" />
+<item abbr="AIUG" name="Airtel Uganda" countryiso="UG" logo="1" />
+<item abbr="AJID" name="Indosat Indonesia" countryiso="ID" logo="1" />
+<item abbr="ALEC" name="CNT Ecuador" countryiso="EC" logo="1" />
+<item abbr="ARIN" name="Aircel India" countryiso="IN" logo="1" />
+<item abbr="ASES" name="MasMovil Spain" countryiso="ES" logo="1" />
+<item abbr="ATUS" name="AT&amp;T USA" countryiso="US" logo="1" />
+<item abbr="ATPR" name="AT&amp;T Puerto Rico" countryiso="PR" logo="1" />
+<item abbr="ATUS" name="AT&amp;T USA (F)" countryiso="US" logo="1" />
+<item abbr="ATPR" name="AT&amp;T Puerto Rico (F)" countryiso="PR" logo="1" />
+<item abbr="AURU" name="Acos Russia" countryiso="RU" logo="1" />
+<item abbr="AVTR" name="Avea Turkey" countryiso="TR" logo="1" />
+<item abbr="AWAF" name="AWCC Afghanistan" countryiso="AF" logo="1" />
+<item abbr="AXBD" name="Airtel Bangladesh" countryiso="BD" logo="1" />
+<item abbr="AZGA" name="Azur Gabon" countryiso="GA" logo="1" />
+<item abbr="AZCG" name="Azur Congo Brazzaville" countryiso="CG" logo="1" />
+<item abbr="AZCF" name="Azur Central African Republic" countryiso="CF" logo="1" />
+<item abbr="BARU" name="Baykalwestcom Russia" countryiso="RU" logo="1" />
+<item abbr="BBJM" name="BRS Digicel Broadband Jamaica" countryiso="JM" logo="1" />
+<item abbr="BDJM" name="BRS Digicel Jamaica" countryiso="JM" logo="1" />
+<item abbr="BDAI" name="BRS Digicel Anguila" countryiso="AI" logo="1" />
+<item abbr="BDAG" name="BRS Antigua &amp; Barbuda" countryiso="AG" logo="1" />
+<item abbr="BDAW" name="BRS Aruba" countryiso="AW" logo="1" />
+<item abbr="BDBB" name="BRS Barbados" countryiso="BB" logo="1" />
+<item abbr="BDBM" name="BRS Bermuda" countryiso="BM" logo="1" />
+<item abbr="BDKY" name="BRS Cayman" countryiso="KY" logo="1" />
+<item abbr="BDGD" name="BRS Grenada" countryiso="GD" logo="1" />
+<item abbr="BDGY" name="BRS Guyana" countryiso="GY" logo="1" />
+<item abbr="BDTT" name="BRS Trinidad &amp; Tobago" countryiso="TT" logo="1" />
+<item abbr="BDTC" name="BRS Turks and Caicos Islands" countryiso="TC" logo="1" />
+<item abbr="BDVG" name="BRS British Virgin Islands" countryiso="VG" logo="1" />
+<item abbr="BDGF" name="BRS French Guiana" countryiso="GF" logo="1" />
+<item abbr="BDGP" name="BRS Guadeloupe" countryiso="GP" logo="1" />
+<item abbr="BDMQ" name="BRS Martinique" countryiso="MQ" logo="1" />
+<item abbr="BDDM" name="BRS Dominica" countryiso="DM" logo="1" />
+<item abbr="BDSV" name="BRS El Salvador" countryiso="SV" logo="1" />
+<item abbr="BDHT" name="BRS Haiti" countryiso="HT" logo="1" />
+<item abbr="BDHN" name="BRS Honduras" countryiso="HN" logo="1" />
+<item abbr="BDPA" name="BRS Panama" countryiso="PA" logo="1" />
+<item abbr="BDKN" name="BRS St. Kitts &amp; Nevis" countryiso="KN" logo="1" />
+<item abbr="BDLC" name="BRS St. Lucia" countryiso="LC" logo="1" />
+<item abbr="BDVC" name="BRS St. Vincent &amp; the Granadines" countryiso="VC" logo="1" />
+<item abbr="BDSR" name="BRS Suriname" countryiso="SR" logo="1" />
+<item abbr="BDWS" name="BRS Samoa" countryiso="WS" logo="1" />
+<item abbr="BDPG" name="BRS Papua New Guinea" countryiso="PG" logo="1" />
+<item abbr="BDTO" name="BRS Tonga" countryiso="TO" logo="1" />
+<item abbr="BDVU" name="BRS Vanuatu" countryiso="VU" logo="1" />
+<item abbr="BDFJ" name="BRS Fiji" countryiso="FJ" logo="1" />
+<item abbr="BDAN" name="BRS Bonaire2" countryiso="AN" logo="1" />
+<item abbr="BDCW" name="BRS Curacao2" countryiso="CW" logo="1" />
+<item abbr="BDNR" name="BRS Nauru" countryiso="NR" logo="1" />
+<item abbr="BEVN" name="Beeline Vietnam" countryiso="VN" logo="1" />
+<item abbr="BERU" name="Beeline Russia" countryiso="RU" logo="1" />
+<item abbr="BEGE" name="Beeline Georgia" countryiso="GE" logo="1" />
+<item abbr="BGBD" name="Banglalink Bangladesh" countryiso="BD" logo="1" />
+<item abbr="BLIN" name="BSNL India" countryiso="IN" logo="1" />
+<item abbr="BSES" name="Blau Spain" countryiso="ES" logo="1" />
+<item abbr="CACU" name="Telefonia Fija Prepago ETECSA Cuba" countryiso="CU" logo="1" />
+<item abbr="CBCU" name="Telefonia Fija Pospago ETECSA Cuba" countryiso="CU" logo="1" />
+<item abbr="CCTO" name="TCC Tonga" countryiso="TO" logo="1" />
+<item abbr="CDKH" name="Cellcard Cambodia" countryiso="KH" logo="1" />
+<item abbr="CEZA" name="CellC South Africa" countryiso="ZA" logo="1" />
+<item abbr="CFRO" name="Cosmote Romania" countryiso="RO" logo="1" />
+<item abbr="CGKH" name="CamGSM Cambodia" countryiso="KH" logo="1" />
+<item abbr="CLNI" name="Claro Nicaragua" countryiso="NI" logo="1" />
+<item abbr="CLSV" name="Claro El Salvador" countryiso="SV" logo="1" />
+<item abbr="CLDO" name="Claro Dominican Republic" countryiso="DO" logo="1" />
+<item abbr="CLPE" name="Claro Peru" countryiso="PE" logo="1" />
+<item abbr="CLJM" name="Claro Jamaica" countryiso="JM" logo="1" />
+<item abbr="CLBR" name="Claro Brazil" countryiso="BR" logo="1" />
+<item abbr="CLGT" name="Claro Guatemala (free range)" countryiso="GT" logo="1" />
+<item abbr="CLHN" name="Claro Honduras (U)" countryiso="HN" logo="1" />
+<item abbr="CLAR" name="Claro Argentina" countryiso="AR" logo="1" />
+<item abbr="CLCL" name="Claro Chile" countryiso="CL" logo="1" />
+<item abbr="CMLR" name="Cellcom Liberia" countryiso="LR" logo="1" />
+<item abbr="CMGN" name="Cellcom Guinea" countryiso="GN" logo="1" />
+<item abbr="CNMY" name="Celcom Malaysia" countryiso="MY" logo="1" />
+<item abbr="COCO" name="Claro Colombia" countryiso="CO" logo="1" />
+<item abbr="CSES" name="Carrefour Spain" countryiso="ES" logo="1" />
+<item abbr="CTXA" name="Cubic Telecom" countryiso="XA" logo="1" />
+<item abbr="CUCU" name="Cubacel Cuba" countryiso="CU" logo="1" />
+<item abbr="CUCU" name="Cubacel Cuba (only dotcom)" countryiso="CU" logo="1" />
+<item abbr="CWJM" name="LIME Jamaica" countryiso="JM" logo="1" />
+<item abbr="CWAI" name="LIME Anguilla" countryiso="AI" logo="1" />
+<item abbr="CWAG" name="LIME Antigua" countryiso="AG" logo="1" />
+<item abbr="CWBB" name="LIME Barbados" countryiso="BB" logo="1" />
+<item abbr="CWVG" name="LIME BVI" countryiso="VG" logo="1" />
+<item abbr="CWKY" name="LIME Cayman" countryiso="KY" logo="1" />
+<item abbr="CWDM" name="LIME Dominica" countryiso="DM" logo="1" />
+<item abbr="CWGD" name="LIME Grenada" countryiso="GD" logo="1" />
+<item abbr="CWMS" name="LIME Montserrat" countryiso="MS" logo="1" />
+<item abbr="CWKN" name="LIME St Kits" countryiso="KN" logo="1" />
+<item abbr="CWLC" name="LIME St Lucia" countryiso="LC" logo="1" />
+<item abbr="CWVC" name="LIME St Vincent" countryiso="VC" logo="1" />
+<item abbr="CWTC" name="LIME TCI" countryiso="TC" logo="1" />
+<item abbr="CYBD" name="CityCell Bangladesh" countryiso="BD" logo="1" />
+<item abbr="DCJM" name="Digicel Jamaica" countryiso="JM" logo="1" />
+<item abbr="DCHT" name="Digicel Haiti" countryiso="HT" logo="1" />
+<item abbr="DCGY" name="Digicel Guyana" countryiso="GY" logo="1" />
+<item abbr="DCGY" name="BS_Digicel Guyana" countryiso="GY" logo="1" />
+<item abbr="DCHT" name="BS_Digicel Haiti" countryiso="HT" logo="1" />
+<item abbr="DCWS" name="Digicel Samoa" countryiso="WS" logo="1" />
+<item abbr="DCAI" name="Digicel Anguilla" countryiso="AI" logo="1" />
+<item abbr="DCAI" name="BS_Digicel Anguilla" countryiso="AI" logo="1" />
+<item abbr="DCAG" name="Digicel Antigua" countryiso="AG" logo="1" />
+<item abbr="DCAG" name="BS_Digicel Antigua" countryiso="AG" logo="1" />
+<item abbr="DCDM" name="Digicel Dominica" countryiso="DM" logo="1" />
+<item abbr="DCDM" name="BS_Digicel Dominica" countryiso="DM" logo="1" />
+<item abbr="DCGD" name="Digicel Grenada" countryiso="GD" logo="1" />
+<item abbr="DCGD" name="BS_Digicel Grenada" countryiso="GD" logo="1" />
+<item abbr="DCKN" name="Digicel St. Kitts" countryiso="KN" logo="1" />
+<item abbr="DCKN" name="BS_Digicel St. Kitts" countryiso="KN" logo="1" />
+<item abbr="DCLC" name="Digicel St. Lucia" countryiso="LC" logo="1" />
+<item abbr="DCLC" name="BS_Digicel St. Lucia" countryiso="LC" logo="1" />
+<item abbr="DCVC" name="Digicel St. Vincent" countryiso="VC" logo="1" />
+<item abbr="DCVC" name="BS_Digicel St. Vincent" countryiso="VC" logo="1" />
+<item abbr="DCBB" name="Digicel Barbados" countryiso="BB" logo="1" />
+<item abbr="DCBB" name="BS_Digicel Barbados" countryiso="BB" logo="1" />
+<item abbr="DCTT" name="Digicel Trinidad Tobago" countryiso="TT" logo="1" />
+<item abbr="DCTT" name="BS_Digicel Trinidad Tobago" countryiso="TT" logo="1" />
+<item abbr="DCSV" name="Digicel El Salvador" countryiso="SV" logo="1" />
+<item abbr="DCSV" name="BS_Digicel El Salvador" countryiso="SV" logo="1" />
+<item abbr="DCPG" name="Digicel Papua New Guinea" countryiso="PG" logo="1" />
+<item abbr="DCBM" name="Digicel Bermuda" countryiso="BM" logo="1" />
+<item abbr="DCBM" name="BS_Digicel Bermuda" countryiso="BM" logo="1" />
+<item abbr="DCTC" name="Digicel TCI" countryiso="TC" logo="1" />
+<item abbr="DCTC" name="BS_Digicel TCI" countryiso="TC" logo="1" />
+<item abbr="DCSR" name="Digicel Suriname" countryiso="SR" logo="1" />
+<item abbr="DCSR" name="BS_Digicel Suriname" countryiso="SR" logo="1" />
+<item abbr="DCKY" name="Digicel Cayman" countryiso="KY" logo="1" />
+<item abbr="DCKY" name="BS_Digicel Cayman" countryiso="KY" logo="1" />
+<item abbr="DCHN" name="Digicel Honduras" countryiso="HN" logo="1" />
+<item abbr="DCHN" name="BS_Digicel Honduras" countryiso="HN" logo="1" />
+<item abbr="DCTO" name="BS_Digicel Tonga" countryiso="TO" logo="1" />
+<item abbr="DCVU" name="BS_Digicel Vanuatu" countryiso="VU" logo="1" />
+<item abbr="DCFJ" name="BS_Digicel Fiji" countryiso="FJ" logo="1" />
+<item abbr="DCPA" name="BS_Digicel Panama" countryiso="PA" logo="1" />
+<item abbr="DCAW" name="BS_Digicel Aruba" countryiso="AW" logo="1" />
+<item abbr="DCVG" name="BS_Digicel BVI" countryiso="VG" logo="1" />
+<item abbr="DCGF" name="BS_Digicel French Guiana" countryiso="GF" logo="1" />
+<item abbr="DCGP" name="BS_Digicel Guadeloupe" countryiso="GP" logo="1" />
+<item abbr="DCMQ" name="BS_Digicel Martinique" countryiso="MQ" logo="1" />
+<item abbr="DCAW" name="Digicel Aruba" countryiso="AW" logo="1" />
+<item abbr="DCVG" name="Digicel British Virgin Islands" countryiso="VG" logo="1" />
+<item abbr="DCGF" name="Digicel French Guiana" countryiso="GF" logo="1" />
+<item abbr="DCGP" name="Digicel Guadeloupe" countryiso="GP" logo="1" />
+<item abbr="DCMQ" name="Digicel Martinique" countryiso="MQ" logo="1" />
+<item abbr="DCPA" name="Digicel Panama" countryiso="PA" logo="1" />
+<item abbr="DCFJ" name="Digicel Fiji" countryiso="FJ" logo="1" />
+<item abbr="DCTO" name="Digicel Tonga" countryiso="TO" logo="1" />
+<item abbr="DCVU" name="Digicel Vanuatu" countryiso="VU" logo="1" />
+<item abbr="DCJM" name="BS_Digicel Jamaica" countryiso="JM" logo="1" />
+<item abbr="DCAN" name="BS_Digicel Bonaire2" countryiso="AN" logo="1" />
+<item abbr="DCAN" name="Digicel Bonaire2" countryiso="AN" logo="1" />
+<item abbr="DCCW" name="BS_Digicel Curacao2" countryiso="CW" logo="1" />
+<item abbr="DCCW" name="Digicel Curacao2" countryiso="CW" logo="1" />
+<item abbr="DCNR" name="Digicel Nauru" countryiso="NR" logo="1" />
+<item abbr="DCNR" name="BS_Digicel Nauru" countryiso="NR" logo="1" />
+<item abbr="DCHN" name="Digicel Honduras (Fixed Denom.)" countryiso="HN" logo="1" />
+<item abbr="DGLK" name="Dialog Sri Lanka" countryiso="LK" logo="1" />
+<item abbr="DIMY" name="DiGi Malaysia" countryiso="MY" logo="1" />
+<item abbr="DSES" name="DigiMobil Spain" countryiso="ES" logo="1" />
+<item abbr="EBCO" name="ETB Colombia" countryiso="CO" logo="1" />
+<item abbr="ECZW" name="Econet Zimbabwe" countryiso="ZW" logo="1" />
+<item abbr="ECBI" name="Econet Burundi" countryiso="BI" logo="1" />
+<item abbr="ELBR" name="Embratel Livre Brazil" countryiso="BR" logo="1" />
+<item abbr="EMAL" name="Eagle Mobile Albania" countryiso="AL" logo="1" />
+<item abbr="ENBO" name="Entel Bolivia" countryiso="BO" logo="1" />
+<item abbr="EPDE" name="E-Plus Germany" countryiso="DE" logo="1" />
+<item abbr="ESES" name="Lebara Spain" countryiso="ES" logo="1" />
+<item abbr="ETAF" name="Etisalat Afghanistan" countryiso="AF" logo="1" />
+<item abbr="ETNG" name="Etisalat Nigeria" countryiso="NG" logo="1" />
+<item abbr="ETEG" name="Etisalat Egypt" countryiso="EG" logo="1" />
+<item abbr="EVVN" name="EVN Telecom Vietnam" countryiso="VN" logo="1" />
+<item abbr="EXID" name="Excelcomindo Indonesia" countryiso="ID" logo="1" />
+<item abbr="EYRU" name="Eniseytelecom Russia" countryiso="RU" logo="1" />
+<item abbr="FSES" name="HablaFacil Spain" countryiso="ES" logo="1" />
+<item abbr="GBPH" name="BS_Globe Philippines" countryiso="PH" logo="1" />
+<item abbr="GEBD" name="Grameenphone Bangladesh" countryiso="BD" logo="1" />
+<item abbr="GLNG" name="Glo Nigeria" countryiso="NG" logo="1" />
+<item abbr="GMVN" name="Gmobile Vietnam" countryiso="VN" logo="1" />
+<item abbr="GSES" name="GT Spain" countryiso="ES" logo="1" />
+<item abbr="GTGY" name="GT&amp;T Guyana" countryiso="GY" logo="1" />
+<item abbr="HEPL" name="Heyah Poland" countryiso="PL" logo="1" />
+<item abbr="HMES" name="HitsMobile Spain" countryiso="ES" logo="1" />
+<item abbr="HOHN" name="Hondutel Honduras" countryiso="HN" logo="1" />
+<item abbr="HPES" name="Happy Spain" countryiso="ES" logo="1" />
+<item abbr="HSLK" name="Hutch Sri Lanka" countryiso="LK" logo="1" />
+<item abbr="IDIN" name="Idea India" countryiso="IN" logo="1" />
+<item abbr="IMBR" name="Tim Brazil" countryiso="BR" logo="1" />
+<item abbr="INMA" name="Inwi Morocco" countryiso="MA" logo="1" />
+<item abbr="ISES" name="MundiMovil Spain" countryiso="ES" logo="1" />
+<item abbr="ITUA" name="Intertelecom Ukraine" countryiso="UA" logo="1" />
+<item abbr="IUMX" name="Iusacell Mexico" countryiso="MX" logo="1" />
+<item abbr="JPPS" name="Jawwal Palestine" countryiso="PS" logo="1" />
+<item abbr="JSES" name="Jazztel Spain" countryiso="ES" logo="1" />
+<item abbr="KSUA" name="Kyivstar Ukraine" countryiso="UA" logo="1" />
+<item abbr="LCLR" name="Lonestar Cell Liberia" countryiso="LR" logo="1" />
+<item abbr="LIBY" name="Life Belarus" countryiso="BY" logo="1" />
+<item abbr="LIUA" name="Life Ukraine" countryiso="UA" logo="1" />
+<item abbr="LMES" name="LineMovil Spain" countryiso="ES" logo="1" />
+<item abbr="LPIN" name="Loop Mobile India" countryiso="IN" logo="1" />
+<item abbr="LSES" name="Llamaya Spain" countryiso="ES" logo="1" />
+<item abbr="LYES" name="Lyca Spain" countryiso="ES" logo="1" />
+<item abbr="MAIN" name="MTS India" countryiso="IN" logo="1" />
+<item abbr="MARU" name="MTS Russia" countryiso="RU" logo="1" />
+<item abbr="MABY" name="MTS Belarus" countryiso="BY" logo="1" />
+<item abbr="MAUA" name="MTS Ukraine" countryiso="UA" logo="1" />
+<item abbr="MBPK" name="Mobilink(Jazz) Pakistan" countryiso="PK" logo="1" />
+<item abbr="MCMD" name="Moldcell Moldova" countryiso="MD" logo="1" />
+<item abbr="MECO" name="Movistar Colombia (EU)" countryiso="CO" logo="1" />
+<item abbr="MEEC" name="Movistar Ecuador (EU)" countryiso="EC" logo="1" />
+<item abbr="MESV" name="Movistar El Salvador (EU)" countryiso="SV" logo="1" />
+<item abbr="MEGT" name="Movistar Guatemala (EU)" countryiso="GT" logo="1" />
+<item abbr="MEMX" name="Movistar Mexico (EU)" countryiso="MX" logo="1" />
+<item abbr="MENI" name="Movistar Nicaragua (EU)" countryiso="NI" logo="1" />
+<item abbr="MEPA" name="Movistar Panama (EU)" countryiso="PA" logo="1" />
+<item abbr="MEPE" name="Movistar Peru (EU)" countryiso="PE" logo="1" />
+<item abbr="MEUY" name="Movistar Uruguay (EU)" countryiso="UY" logo="1" />
+<item abbr="MEAR" name="Movistar Argentina (EU)" countryiso="AR" logo="1" />
+<item abbr="MFVN" name="MobiFone Vietnam" countryiso="VN" logo="1" />
+<item abbr="MIMA" name="Meditel Morocco" countryiso="MA" logo="1" />
+<item abbr="MLIN" name="MTS MBlaze (Data Only) India" countryiso="IN" logo="1" />
+<item abbr="MOMA" name="Maroc Telecom Morocco" countryiso="MA" logo="1" />
+<item abbr="MRRU" name="Megafon Russia" countryiso="RU" logo="1" />
+<item abbr="MSLK" name="Mobitel Sri Lanka" countryiso="LK" logo="1" />
+<item abbr="MTSD" name="MTN Sudan" countryiso="SD" logo="1" />
+<item abbr="MTAF" name="MTN Afghanistan" countryiso="AF" logo="1" />
+<item abbr="MTGH" name="MTN Ghana" countryiso="GH" logo="1" />
+<item abbr="MTRW" name="MTN Rwanda" countryiso="RW" logo="1" />
+<item abbr="MTCI" name="MTN Ivory Coast" countryiso="CI" logo="1" />
+<item abbr="MTCG" name="MTN Congo Brazzaville" countryiso="CG" logo="1" />
+<item abbr="MTGW" name="MTN Guinea Bissau" countryiso="GW" logo="1" />
+<item abbr="MTGN" name="MTN Guinea Conakry" countryiso="GN" logo="1" />
+<item abbr="MTCY" name="MTN Cyprus" countryiso="CY" logo="1" />
+<item abbr="MTBJ" name="MTN Benin" countryiso="BJ" logo="1" />
+<item abbr="MTYE" name="MTN Yemen" countryiso="YE" logo="1" />
+<item abbr="MTCM" name="MTN Cameroon" countryiso="CM" logo="1" />
+<item abbr="MTSZ" name="MTN Swaziland" countryiso="SZ" logo="1" />
+<item abbr="MTUG" name="MTN Uganda" countryiso="UG" logo="1" />
+<item abbr="MTNG" name="MTN Nigeria" countryiso="NG" logo="1" />
+<item abbr="MTZM" name="MTN Zambia (ZMW)" countryiso="ZM" logo="1" />
+<item abbr="MTSY" name="MTN Syria" countryiso="SY" logo="1" />
+<item abbr="MTZA" name="MTN South Africa" countryiso="ZA" logo="1" />
+<item abbr="MUPE" name="Movistar Peru (OTU)" countryiso="PE" logo="1" />
+<item abbr="MVBJ" name="Moov Benin" countryiso="BJ" logo="1" />
+<item abbr="MVCF" name="Moov Central African Republic" countryiso="CF" logo="1" />
+<item abbr="MVTG" name="Moov Togo" countryiso="TG" logo="1" />
+<item abbr="MVNE" name="Moov Niger" countryiso="NE" logo="1" />
+<item abbr="MXMY" name="Maxis Malaysia" countryiso="MY" logo="1" />
+<item abbr="NCNP" name="Ncell Nepal" countryiso="NP" logo="1" />
+<item abbr="NENP" name="NepalTelecom Nepal" countryiso="NP" logo="1" />
+<item abbr="NKSO" name="NationLink Mogadishu Somalia" countryiso="SO" logo="1" />
+<item abbr="NMHT" name="Natcom Haiti" countryiso="HT" logo="1" />
+<item abbr="NPSO" name="NationLink Puntland Somalia" countryiso="SO" logo="1" />
+<item abbr="NSES" name="HongDa Spain" countryiso="ES" logo="1" />
+<item abbr="NTBR" name="Nextel Brazil" countryiso="BR" logo="1" />
+<item abbr="NTAR" name="Nextel Argentina" countryiso="AR" logo="1" />
+<item abbr="NTMX" name="Nextel Mexico" countryiso="MX" logo="1" />
+<item abbr="NVBO" name="VIVA Bolivia" countryiso="BO" logo="1" />
+<item abbr="O2DE" name="O2 Germany" countryiso="DE" logo="1" />
+<item abbr="OIBR" name="Oi Brazil" countryiso="BR" logo="1" />
+<item abbr="ONBF" name="Onatel Burkina Faso" countryiso="BF" logo="1" />
+<item abbr="ORXX" name="Orange DR" countryiso="XX" logo="1" />
+<item abbr="ORDO" name="Orange Dominican Republic" countryiso="DO" logo="1" />
+<item abbr="ORRO" name="Orange Romania" countryiso="RO" logo="1" />
+<item abbr="ORES" name="Orange Spain" countryiso="ES" logo="1" />
+<item abbr="ORNE" name="Orange Niger" countryiso="NE" logo="1" />
+<item abbr="ORGN" name="Orange Guinea" countryiso="GN" logo="1" />
+<item abbr="ORCI" name="Orange Ivory Coast" countryiso="CI" logo="1" />
+<item abbr="ORML" name="Orange Mali" countryiso="ML" logo="1" />
+<item abbr="ORMG" name="Orange Madagascar" countryiso="MG" logo="1" />
+<item abbr="ORCM" name="Orange Cameroon" countryiso="CM" logo="1" />
+<item abbr="ORTN" name="Orange Tunisia" countryiso="TN" logo="1" />
+<item abbr="ORSN" name="Orange Senegal" countryiso="SN" logo="1" />
+<item abbr="ORUG" name="Orange Uganda" countryiso="UG" logo="1" />
+<item abbr="ORAM" name="Orange Armenia" countryiso="AM" logo="1" />
+<item abbr="ORDO" name="Orange Dominican Republic (EU)" countryiso="DO" logo="1" />
+<item abbr="ORKE" name="Orange Telkom Kenya" countryiso="KE" logo="1" />
+<item abbr="ORCF" name="Orange Central African Republic" countryiso="CF" logo="1" />
+<item abbr="OREG" name="Mobinil Egypt (Broken)" countryiso="EG" logo="1" />
+<item abbr="OREG" name="Mobinil Egypt (Orange Hub)" countryiso="EG" logo="1" />
+<item abbr="ORCD" name="Orange Democratic Republic of the Congo" countryiso="CD" logo="1" />
+<item abbr="ORMD" name="Orange Moldova" countryiso="MD" logo="1" />
+<item abbr="ORPL" name="Orange Poland" countryiso="PL" logo="1" />
+<item abbr="OTES" name="Ortel Spain" countryiso="ES" logo="1" />
+<item abbr="PLPL" name="Play Poland" countryiso="PL" logo="1" />
+<item abbr="PRPY" name="Personal Paraguay" countryiso="PY" logo="1" />
+<item abbr="PRAR" name="Personal Argentina" countryiso="AR" logo="1" />
+<item abbr="PSPL" name="Plus Poland" countryiso="PL" logo="1" />
+<item abbr="QCKH" name="QbCube Cambodia" countryiso="KH" logo="1" />
+<item abbr="QLGM" name="QCell Gambia" countryiso="GM" logo="1" />
+<item abbr="REIN" name="Reliance India" countryiso="IN" logo="1" />
+<item abbr="RHAF" name="Roshan Afghanistan" countryiso="AF" logo="1" />
+<item abbr="RISV" name="RED El Salvador" countryiso="SV" logo="1" />
+<item abbr="RLBD" name="Robi Bangladesh" countryiso="BD" logo="1" />
+<item abbr="RSES" name="Orbitel Spain" countryiso="ES" logo="1" />
+<item abbr="RTSA" name="RetryTest" countryiso="SA" logo="1" />
+<item abbr="SAKE" name="Safaricom Kenya" countryiso="KE" logo="1" />
+<item abbr="SBBZ" name="Smart Belize" countryiso="BZ" logo="1" />
+<item abbr="SCKH" name="Smart Cambodia" countryiso="KH" logo="1" />
+<item abbr="SEVN" name="SFone Vietnam" countryiso="VN" logo="1" />
+<item abbr="SFYE" name="Sabafon Yemen" countryiso="YE" logo="1" />
+<item abbr="SIID" name="Esia Indonesia" countryiso="ID" logo="1" />
+<item abbr="SLSO" name="Somtel Somaliland" countryiso="SO" logo="1" />
+<item abbr="SMPH" name="Smart Philippines" countryiso="PH" logo="1" />
+<item abbr="SPUS" name="Simple Mobile USA" countryiso="US" logo="1" />
+<item abbr="SSES" name="Simyo Spain" countryiso="ES" logo="1" />
+<item abbr="STPH" name="Smart Talk n Text Philippines" countryiso="PH" logo="1" />
+<item abbr="SUPH" name="SunCellular Philippines" countryiso="PH" logo="1" />
+<item abbr="T1HN" name="Tigo Honduras (Fixed Denom.)" countryiso="HN" logo="1" />
+<item abbr="T2LT" name="Tele2 Lithuania" countryiso="LT" logo="1" />
+<item abbr="T3RU" name="Tatinkom Russia" countryiso="RU" logo="1" />
+<item abbr="TBBZ" name="Telemedia Belize" countryiso="BZ" logo="1" />
+<item abbr="TCMX" name="Telcel Mexico" countryiso="MX" logo="1" />
+<item abbr="TEZW" name="Telecel Zimbabwe" countryiso="ZW" logo="1" />
+<item abbr="TEEE" name="Travel Sim Estonia" countryiso="EE" logo="1" />
+<item abbr="TEMX" name="Telcel Mexico (Retail)" countryiso="MX" logo="1" />
+<item abbr="TFNI" name="Movistar Nicaragua" countryiso="NI" logo="1" />
+<item abbr="TFSV" name="Movistar El Salvador" countryiso="SV" logo="1" />
+<item abbr="TFMX" name="Movistar Mexico" countryiso="MX" logo="1" />
+<item abbr="TFCO" name="Movistar Colombia" countryiso="CO" logo="1" />
+<item abbr="TFGT" name="Movistar Guatemala" countryiso="GT" logo="1" />
+<item abbr="TFPA" name="Movistar Panama" countryiso="PA" logo="1" />
+<item abbr="TFEC" name="Movistar Ecuador" countryiso="EC" logo="1" />
+<item abbr="TFPE" name="Movistar Peru" countryiso="PE" logo="1" />
+<item abbr="TFUY" name="Movistar Uruguay" countryiso="UY" logo="1" />
+<item abbr="TFES" name="Movistar Spain" countryiso="ES" logo="1" />
+<item abbr="TFAR" name="Movistar Argentina" countryiso="AR" logo="1" />
+<item abbr="TGCO" name="Tigo Colombia (PIN)" countryiso="CO" logo="1" />
+<item abbr="TGSV" name="Tigo El Salvador (PIN)" countryiso="SV" logo="1" />
+<item abbr="TGGT" name="Tigo Guatemala (PIN)" countryiso="GT" logo="1" />
+<item abbr="TGHN" name="Tigo Honduras (PIN)" countryiso="HN" logo="1" />
+<item abbr="TGRW" name="Tigo Rwanda" countryiso="RW" logo="1" />
+<item abbr="THPL" name="Tak Tak Poland" countryiso="PL" logo="1" />
+<item abbr="TILK" name="Etisalat Sri Lanka" countryiso="LK" logo="1" />
+<item abbr="TICO" name="Tigo Colombia" countryiso="CO" logo="1" />
+<item abbr="TIHN" name="Tigo Honduras" countryiso="HN" logo="1" />
+<item abbr="TILA" name="Beeline Laos" countryiso="LA" logo="1" />
+<item abbr="TISV" name="Tigo El Salvador" countryiso="SV" logo="1" />
+<item abbr="TIGH" name="Tigo Ghana" countryiso="GH" logo="1" />
+<item abbr="TISN" name="Tigo Senegal" countryiso="SN" logo="1" />
+<item abbr="TIGT" name="Tigo Guatemala" countryiso="GT" logo="1" />
+<item abbr="TIBO" name="Tigo Bolivia" countryiso="BO" logo="1" />
+<item abbr="TIPY" name="Tigo Paraguay" countryiso="PY" logo="1" />
+<item abbr="TITZ" name="Tigo Tanzania" countryiso="TZ" logo="1" />
+<item abbr="TJMX" name="Telcel Mexico (P)" countryiso="MX" logo="1" />
+<item abbr="TKID" name="Telkomsel Indonesia" countryiso="ID" logo="1" />
+<item abbr="TLUS" name="T-Mobile USA" countryiso="US" logo="1" />
+<item abbr="TLPR" name="T-Mobile Puerto Rico" countryiso="PR" logo="1" />
+<item abbr="TLUS" name="T-Mobile USA (F)" countryiso="US" logo="1" />
+<item abbr="TLPR" name="T-Mobile Puerto Rico (F)" countryiso="PR" logo="1" />
+<item abbr="TLDE" name="T-Mobile Germany" countryiso="DE" logo="1" />
+<item abbr="TMPH" name="Touch Mobile Philippines" countryiso="PH" logo="1" />
+<item abbr="TNBT" name="Telecom Bhutan" countryiso="BT" logo="1" />
+<item abbr="TOCR" name="Tuyo Movil Costa Rica" countryiso="CR" logo="1" />
+<item abbr="TPPK" name="Telenor Pakistan" countryiso="PK" logo="1" />
+<item abbr="TPRS" name="Telenor Serbia" countryiso="RS" logo="1" />
+<item abbr="TQBD" name="Teletalk Bangladesh" countryiso="BD" logo="1" />
+<item abbr="TRDO" name="Tricom Dominican Republic" countryiso="DO" logo="1" />
+<item abbr="TSES" name="Talkout Spain" countryiso="ES" logo="1" />
+<item abbr="TTTT" name="bMobile Trinidad" countryiso="TT" logo="1" />
+<item abbr="TUTN" name="Tunisiana Tunisia" countryiso="TN" logo="1" />
+<item abbr="TVID" name="Telkom Flexi Indonesia" countryiso="ID" logo="1" />
+<item abbr="TWTN" name="Tunisie Telecom Tunisia" countryiso="TN" logo="1" />
+<item abbr="TXIN" name="Tata-DOCOMO India (Denom.)" countryiso="IN" logo="1" />
+<item abbr="TYIN" name="Tata-Indicom India (Denom.)" countryiso="IN" logo="1" />
+<item abbr="UCBI" name="U-COM Burundi" countryiso="BI" logo="1" />
+<item abbr="UECO" name="UNE Colombia" countryiso="CO" logo="1" />
+<item abbr="UFPK" name="Ufone Pakistan" countryiso="PK" logo="1" />
+<item abbr="UHJO" name="Umniah Jordan" countryiso="JO" logo="1" />
+<item abbr="UIMD" name="Unite Moldova" countryiso="MD" logo="1" />
+<item abbr="UMCN" name="Unicom China" countryiso="CN" logo="1" />
+<item abbr="UNMX" name="Unefon Mexico" countryiso="MX" logo="1" />
+<item abbr="URIN" name="Uninor India" countryiso="IN" logo="1" />
+<item abbr="USES" name="Euskaltel Spain" countryiso="ES" logo="1" />
+<item abbr="UTUG" name="Uganda Telecom Uganda" countryiso="UG" logo="1" />
+<item abbr="UVCO" name="Uff Movil Colombia" countryiso="CO" logo="1" />
+<item abbr="V1VN" name="VinaPhone Vietnam" countryiso="VN" logo="1" />
+<item abbr="V2VN" name="Mobifone Vietnam" countryiso="VN" logo="1" />
+<item abbr="V3VN" name="Viettel Vietnam" countryiso="VN" logo="1" />
+<item abbr="V4VN" name="EVN Telecom Vietnam" countryiso="VN" logo="1" />
+<item abbr="V5VN" name="S-fone Vietnam" countryiso="VN" logo="1" />
+<item abbr="VAHT" name="Voila Haiti" countryiso="HT" logo="1" />
+<item abbr="VBIN" name="Videocon India" countryiso="IN" logo="1" />
+<item abbr="VCAM" name="VivaCell-MTS Armenia" countryiso="AM" logo="1" />
+<item abbr="VDTZ" name="Vodacom Tanzania" countryiso="TZ" logo="1" />
+<item abbr="VDZA" name="Vodacom South Africa" countryiso="ZA" logo="1" />
+<item abbr="VDMZ" name="Vodacom Mozambique" countryiso="MZ" logo="1" />
+<item abbr="VENG" name="Visafone Nigeria" countryiso="NG" logo="1" />
+<item abbr="VFRO" name="Vodafone Romania" countryiso="RO" logo="1" />
+<item abbr="VFIN" name="Vodafone India" countryiso="IN" logo="1" />
+<item abbr="VFES" name="Vodafone Spain" countryiso="ES" logo="1" />
+<item abbr="VFEG" name="Vodafone Egypt" countryiso="EG" logo="1" />
+<item abbr="VFFJ" name="Vodafone Fiji" countryiso="FJ" logo="1" />
+<item abbr="VFGH" name="Vodafone Ghana" countryiso="GH" logo="1" />
+<item abbr="VFDE" name="Vodafone Germany" countryiso="DE" logo="1" />
+<item abbr="VFGB" name="Vodafone UK" countryiso="GB" logo="1" />
+<item abbr="VFTR" name="Vodafone Turkey" countryiso="TR" logo="1" />
+<item abbr="VFAL" name="Vodafone Albania" countryiso="AL" logo="1" />
+<item abbr="VHVN" name="Vinaphone Vietnam" countryiso="VN" logo="1" />
+<item abbr="VIKW" name="Viva Kuwait" countryiso="KW" logo="1" />
+<item abbr="VLVN" name="Viettel Mobile Vietnam" countryiso="VN" logo="1" />
+<item abbr="VMVN" name="VietnamMobile Vietnam" countryiso="VN" logo="1" />
+<item abbr="VNVN" name="Vietnammobile Vietnam" countryiso="VN" logo="1" />
+<item abbr="VOBR" name="Vivo Brazil" countryiso="BR" logo="1" />
+<item abbr="VPPY" name="Vox Paraguay" countryiso="PY" logo="1" />
+<item abbr="VRIN" name="Virgin Mobile India" countryiso="IN" logo="1" />
+<item abbr="VRCO" name="Virgin Mobile Colombia" countryiso="CO" logo="1" />
+<item abbr="VSBR" name="Vivo Sao Paulo Brazil" countryiso="BR" logo="1" />
+<item abbr="VTDO" name="VIVA Dominican Republic (OTU)" countryiso="DO" logo="1" />
+<item abbr="VVDO" name="VIVA Dominican Republic" countryiso="DO" logo="1" />
+<item abbr="WAUG" name="Warid Uganda" countryiso="UG" logo="1" />
+<item abbr="WACG" name="Warid Congo Brazzaville" countryiso="CG" logo="1" />
+<item abbr="WPPK" name="Warid Pakistan" countryiso="PK" logo="1" />
+<item abbr="WTKW" name="Wataniya Kuwait" countryiso="KW" logo="1" />
+<item abbr="WTPS" name="Wataniya Palestine" countryiso="PS" logo="1" />
+<item abbr="XPSN" name="Expresso Senegal" countryiso="SN" logo="1" />
+<item abbr="XPGH" name="Expresso Ghana" countryiso="GH" logo="1" />
+<item abbr="YSES" name="Yoigo Spain" countryiso="ES" logo="1" />
+<item abbr="YUKE" name="Yu Mobile Kenya" countryiso="KE" logo="1" />
+<item abbr="ZANG" name="Airtel Nigeria" countryiso="NG" logo="1" />
+<item abbr="ZAKW" name="Zain Kuwait" countryiso="KW" logo="1" />
+<item abbr="ZASD" name="Zain Sudan" countryiso="SD" logo="1" />
+<item abbr="ZLTZ" name="Zantel Tanzania" countryiso="TZ" logo="1" />
+<item abbr="ZNPK" name="Zong Pakistan" countryiso="PK" logo="1" />
+<item abbr="ILUS" name="Zong Pakistan" countryiso="PK" logo="1" />
+<item abbr="1061" name="Zain Bahrain" countryiso="BH" logo="88" />
+<item abbr="1060" name="Zain Saudi" countryiso="SA" logo="88" />
+
+		
+	</operators>
+	
+	<countries assets="flags">
+     	<item countryiso="US-FL" countryname="United States" coordinates="387,555" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-WA" countryname="United States" coordinates="154,457" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-MT" countryname="United States" coordinates="222,459" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-ND" countryname="United States" coordinates="262,459" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-MN" countryname="United States" coordinates="295,462" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-WI" countryname="United States" coordinates="327,470" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-OR" countryname="United States" coordinates="157,472" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-CA" countryname="United States" coordinates="153,497" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-AZ" countryname="United States" coordinates="186,517" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-TX" countryname="United States" coordinates="245,553" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-NM" countryname="United States" coordinates="220,522" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-NV" countryname="United States" coordinates="180,492" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-UT" countryname="United States" coordinates="204,497" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-CO" countryname="United States" coordinates="243,501" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-WY" countryname="United States" coordinates="233,478" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-SD" countryname="United States" coordinates="270,472" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-NE" countryname="United States" coordinates="277,470" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-KS" countryname="United States" coordinates="280,506" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-OK" countryname="United States" coordinates="285,521" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-IA" countryname="United States" coordinates="306,487" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-MO" countryname="United States" coordinates="315,506" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-AR" countryname="United States" coordinates="316,526" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-IL" countryname="United States" coordinates="333,497" flag="90,144" thanks="thank you..." />
+		<item countryiso="IL-US" countryname="United States" coordinates="333,497" flag="90,144" thanks="thank you..." />
+		<item countryiso="ILUS" countryname="United States" coordinates="333,497" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-MI" countryname="United States" coordinates="355,479" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-IN" countryname="United States" coordinates="349,496" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-LA" countryname="United States" coordinates="316,540" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-MS" countryname="United States" coordinates="332,533" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-AL" countryname="United States" coordinates="350,535" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-TN" countryname="United States" coordinates="345,518" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-OH" countryname="United States" coordinates="367,493" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-KY" countryname="United States" coordinates="360,506" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-PA" countryname="United States" coordinates="392,485" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-GA" countryname="United States" coordinates="369,533" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-SC" countryname="United States" coordinates="387,525" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-WY" countryname="United States" coordinates="379,503" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-VA" countryname="United States" coordinates="394,553" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-NY" countryname="United States" coordinates="408,472" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-VT" countryname="United States" coordinates="403,554" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-NH" countryname="United States" coordinates="415,451" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-ME" countryname="United States" coordinates="430,454" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-MD" countryname="United States" coordinates="417,506" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-DE" countryname="United States" coordinates="420,499" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-NJ" countryname="United States" coordinates="424,493" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-CT" countryname="United States" coordinates="425,486" flag="90,144" thanks="thank you..." />
+		<item countryiso="US-RI" countryname="United States" coordinates="434,479" flag="90,144" thanks="thank you..." />
+		<item countryiso="AE" countryname="UAE" coordinates="1187,581" flag="0,0" thanks="thank you..." />
+		<item countryiso="AW" countryname="Aruba" coordinates="456,654" flag="30,0" thanks="thank you..." />
+		<item countryiso="AG" countryname="Antigua and Barbuda" coordinates="507,628" flag="60,0" thanks="thank you..." />
+		<item countryiso="AI" countryname="Anguilla" coordinates="480,617" flag="90,0" thanks="thank you..." />
+		<item countryiso="AT" countryname="Austria" coordinates="941,445" flag="120,0" thanks="thank you..." />
+		<item countryiso="AU" countryname="Australia" coordinates="1653,864" flag="150,0" thanks="thank you..." />
+		<item countryiso="BB" countryname="Barbados" coordinates="506,629" flag="180,0" thanks="thank you..." />
+		<item countryiso="BH" countryname="Bahrain" coordinates="1088,614" flag="210,0" thanks="????" />
+		<item countryiso="BE" countryname="Belgium" coordinates="884,430" flag="240,0" thanks="merci..." />
+		<item countryiso="BG" countryname="Bulgaria" coordinates="1016,478" flag="270,0" thanks="?????????…" />
+		<item countryiso="BI" countryname="Burundi" coordinates="1045,743" flag="0,24" thanks="merci..." />
+		<item countryiso="BM" countryname="Bermuda" coordinates="480,527" flag="30,24" thanks="thank you..." />
+		<item countryiso="BS" countryname="Bahamas" coordinates="410,578" flag="60,24" thanks="thank you..." />
+		<item countryiso="BY" countryname="Belarus" coordinates="1009,413" flag="90,24" thanks="??????…" />
+		<item countryiso="CA" countryname="Canada" coordinates="240,431" flag="120,24" thanks="thank you..." />
+		<item countryiso="CH" countryname="Switzerland" coordinates="918,448" flag="150,24" thanks="merci..." />
+		<item countryiso="CZ" countryname="Czech Republic" coordinates="946,440" flag="180,24" thanks="dekuji…" />
+		<item countryiso="DE" countryname="Germany" coordinates="923,423" flag="210,24" thanks="danke..." />
+		<item countryiso="DM" countryname="Dominica" coordinates="493,637" flag="240,24" thanks="thank you..." />
+		<item countryiso="DO" index="9" countryname="Dominican Republic" coordinates="457,613" flag="270,24" thanks="gracias..." />
+		<item countryiso="ES" countryname="Spain" coordinates="845,496" flag="0,48" thanks="gracias..." />
+		<item countryiso="FI" countryname="Finland" coordinates="1003,358" flag="1,48" thanks="kiitos…" />
+		<item countryiso="FJ" countryname="Fiji" coordinates="1891,842" flag="90,48" thanks="thank you…" />
+		<item countryiso="FR" countryname="France" coordinates="873,456" flag="90,48" thanks="merci..." />
+		<item countryiso="GD" countryname="Grenada" coordinates="505,649" flag="120,48" thanks="thank you..." />
+		<item countryiso="GP" countryname="Guadeloupe" coordinates="491,630" flag="150,48" thanks="merci..." />
+		<item countryiso="GR" countryname="Greece" coordinates="993,493" flag="180,48" thanks="??? ?????????" />
+		<item countryiso="GY" countryname="Guyana" coordinates="518,689" flag="210,48" thanks="thank you..." />
+		<item countryiso="HN" index="8" countryname="Honduras" coordinates="356,636" flag="240,48" thanks="gracias..." />
+		<item countryiso="HT" index="2" countryname="Haiti" coordinates="438,649" flag="270,48" thanks="mèsi…" />
+		<item countryiso="HU" countryname="Hungary" coordinates="985,463" flag="0,72" thanks="köszönöm…" />
+		<item countryiso="IE" countryname="Ireland" coordinates="821,409" flag="30,72" thanks="go raibh maith agat" />
+		<item countryiso="IN" index="3" countryname="India" coordinates="1314,624" flag="60,72" thanks="???????" />
+		<item countryiso="IT" countryname="Italy" coordinates="945,477" flag="90,72" thanks="grazie" />
+		<item countryiso="JM" index="1" countryname="Jamaica" coordinates="413,617" flag="120,72" thanks="thank you..." />
+		<item countryiso="SA" countryname="Saudi Arabia" coordinates="1135,591" flag="150,72" thanks="????" />
+		<item countryiso="OM" countryname="Oman" coordinates="1202,602" flag="180,72" thanks="????" />
+		<item countryiso="KN" countryname="St. Kitts and Nevis" coordinates="490,630" flag="210,72" thanks="thank you..." />
+		<item countryiso="KY" countryname="Cayman Islands" coordinates="385,606" flag="240,72" thanks="thank you..." />
+		<item countryiso="LC" countryname="St. Lucia" coordinates="486,642" flag="270,72" thanks="thank you..." />
+		<item countryiso="LK" countryname="Sri Lanka" coordinates="1337,680" flag="0,96" thanks="bohoma stutiyi" />
+		<item countryiso="LU" countryname="Luxembourg" coordinates="892,438" flag="30,96" thanks="danke..." />
+		<item countryiso="MY" countryname="Malaysia" coordinates="1467,698" flag="60,96" thanks="Selamat pagi" />
+		<item countryiso="MD" countryname="Moldova" coordinates="1040,450" flag="90,96" thanks="mul?umesc" />
+		<item countryiso="MQ" countryname="Martinique" coordinates="503,647" flag="120,96" thanks="gracias..." />
+		<item countryiso="NI" index="14" countryname="Nicaragua" coordinates="370,649" flag="150,96" thanks="gracias..." />
+		<item countryiso="NL" countryname="Netherlands" coordinates="896,422" flag="180,96" thanks="thank you..." />
+		<item countryiso="NZ" countryname="New Zealand" coordinates="1873,975" flag="210,96" thanks="thank you..." />
+		<item countryiso="PG" countryname="Papua New Guinea" coordinates="1709,762" flag="240,96" thanks="thank you..." />
+		<item countryiso="PH" countryname="Philippines" coordinates="1587,642" flag="270,96" thanks="thank you..." />
+		<item countryiso="PK" index="4" countryname="Pakistan" coordinates="1249,552" flag="0,120" thanks="?? ?? ?????" />
+		<item countryiso="PL" countryname="Poland" coordinates="969,414" flag="30,120" thanks="dzi?kuj?..." />
+		<item countryiso="PT" countryname="Portugal" coordinates="814,491" flag="60,120" thanks="obrigado..." />
+		<item countryiso="QA" countryname="Qatar" coordinates="1165,574" flag="90,120" thanks="????" />
+		<item countryiso="SG" countryname="Singapore" coordinates="1475,712" flag="120,120" thanks="thank you..." />
+		<item countryiso="SI" countryname="Slovenia" coordinates="946,451" flag="150,120" thanks="hvala..." />
+		<item countryiso="SR" countryname="Suriname" coordinates="540,696" flag="180,120" thanks="dank u..." />
+		<item countryiso="SV" index="5" countryname="El Salvador" coordinates="342,640" flag="210,120" thanks="gracias..." />
+		<item countryiso="TH" countryname="Thailand" coordinates="1457,621" flag="240,120" thanks="thank you..." />
+		<item countryiso="TC" countryname="Turks and Caicos Islands" coordinates="440,595" flag="270,120" thanks="thank you..." />
+		<item countryiso="TO" countryname="Tonga" coordinates="1912,854" flag="0,144" thanks="thank you..." />
+		<item countryiso="TT" index="11" countryname="Trinidad and Tobago" coordinates="506,668" flag="30,144" thanks="thank you..." />
+		<item countryiso="UK" countryname="Great Britain" coordinates="858,412" flag="60,144" thanks="thank you..." />
+		<item countryiso="US" countryname="United States" coordinates="290,492" flag="90,144" thanks="thank you..." />
+		<item countryiso="VC" countryname="St. Vincent" coordinates="509,645" flag="120,144" thanks="thank you..." />
+		<item countryiso="VU" countryname="Vanuatu" coordinates="1848,819" flag="150,144" thanks="thank you..." />
+		<item countryiso="WS" countryname="Western Samoa" coordinates="1913,822" flag="180,144" thanks="thank you..." />
+		<item countryiso="CO" countryname="Colombia" coordinates="420,698" flag="210,144" thanks="gracias..." />
+		<item countryiso="LR" countryname="Liberia" coordinates="818,692" flag="240,144" thanks="merci..." />
+		<item countryiso="MX" index="6" countryname="Mexico" coordinates="263,575" flag="270,144" thanks="gracias..." />
+		<item countryiso="GT" index="15" countryname="Guatemala" coordinates="339,628" flag="0,168" thanks="gracias..." />
+		<item countryiso="AN" countryname="Netherlands Antilles" coordinates="463,652" flag="30,168" thanks="gracias..." />
+		<item countryiso="PA" countryname="Panama" coordinates="384,671" flag="60,168" thanks="gracias..." />
+		<item countryiso="VG" countryname="British Virgin Islands" coordinates="491,610" flag="90,168" thanks="thank you..." />
+		<item countryiso="AF" index="12" countryname="Afghanistan" coordinates="1243,518" flag="120,168" thanks=".???? " />
+		<item countryiso="EC" countryname="Ecuador" coordinates="403,731" flag="150,168" thanks="gracias..." />
+		<item countryiso="GF" countryname="French Guiana" coordinates="556,699" flag="180,168" thanks="merci..." />
+		<item countryiso="VN" countryname="Vietnam" coordinates="1503,609" flag="210,168" thanks="c?m ?n b?n" />
+		<item countryiso="SD" countryname="Sudan" coordinates="1050,632" flag="240,168" thanks="????" />
+		<item countryiso="RO" countryname="Romania" coordinates="1022,458" flag="270,168" thanks="mul?umesc" />
+		<item countryiso="PE" countryname="Peru" coordinates="436,801" flag="0,192" thanks="gracias..." />
+		<item countryiso="LA" countryname="Laos" coordinates="1468,601" flag="30,192" thanks="Khawp jai lai lai" />
+		<item countryiso="BO" index="10" countryname="Bolivia" coordinates="494,824" flag="60,192" thanks="thank you..." />
+		<item countryiso="CU" index="7" countryname="Cuba" coordinates="408,596" flag="90,192" thanks="gracias..." />
+		<item countryiso="UG" countryname="Uganda" coordinates="1055,713" flag="119,192" thanks="thank you..." />
+		<item countryiso="UY" countryname="Uruguay" coordinates="539,917" flag="150,192" thanks="thank you..." />
+		<item countryiso="VG" countryname="British Virgin Islands" coordinates="187,353" flag="00,00" thanks="thank you..." />
+		<item countryiso="KH" countryname="Cambodia" coordinates="1486,650" flag="219,192" thanks="thank you..." />
+		<item countryiso="RU" countryname="Russia" coordinates="1405,425" flag="250,192" thanks="???????..." />
+		<item countryiso="BZ" countryname="Belize" coordinates="345,623" flag="00,216" thanks="thank you..." />
+		<item countryiso="NG" countryname="Nigeria" coordinates="907,675" flag="30,216" thanks="thank you..." />
+		<item countryiso="PY" index="13" countryname="Paraguay" coordinates="524,832" flag="157,216" thanks="thank you..." />
+		<item countryiso="AM" countryname="Armenia" coordinates="1121,482" flag="89,216" thanks="thank you..." />
+		<item countryiso="GH" countryname="Ghana" coordinates="808,676" flag="119,216" thanks="thank you..." />
+		<item countryiso="LT" countryname="Lithuania" coordinates="999,400" flag="222,217" thanks="a?i?..." />
+		<item countryiso="BR" countryname="Brazil" coordinates="533,788" flag="252,217" thanks="obrigado..." />
+		<item countryiso="AN" countryname="Curacao / Bonaire" coordinates="468,653" flag="00,241" thanks="thank you..." />
+		<item countryiso="NE" countryname="Niger" coordinates="921,637" flag="193,218" thanks="thank you..." />
+		<item countryiso="KW" countryname="Kuwait" coordinates="1143,549" flag="38,242" thanks=".???? ..." />
+		<item countryiso="LB" countryname="Lebanon" coordinates="1077,521" flag="68,242" thanks=".???? ..." />
+		<item countryiso="ID" countryname="Indonesia" coordinates="1538,730" flag="98,242" thanks="terima kasih..." />
+		<item countryiso="NR" countryname="Nauru" coordinates="1900,733" flag="128,241" thanks="thank you..." />
+		<item countryiso="GN" countryname="Guinea" coordinates="808,656" flag="159,242" thanks="thank you..." />
+		<item countryiso="MS" countryname="Montserrat" coordinates="513,648" flag="189,241" thanks="thank you..." />
+		<item countryiso="CI" countryname="Ivory Coast" coordinates="837,681" flag="227,242" thanks="thank you..." />
+		<item countryiso="SN" countryname="Senegal" coordinates="777,645" flag="261,242" thanks="thank you..." />
+		<item countryiso="EG" countryname="Egypt" coordinates="1032,562" flag="00,266" thanks="????..." />
+		<item countryiso="RW" countryname="Rwanda" coordinates="1043,730" flag="28,266" thanks="thank you..." />
+		<item countryiso="ML" countryname="Mali" coordinates="827,621" flag="57,266" thanks="thank you..." />
+		<item countryiso="CN" countryname="China" coordinates="1428,515" flag="86,266" thanks="thank you..." />
+		<item countryiso="KE" countryname="Kenya" coordinates="1092,712" flag="115,266" thanks="thank you..." />
+		<item countryiso="GA" countryname="Gabon" coordinates="932,726" flag="144,266" thanks="thank you..." />
+		<item countryiso="TO" countryname="Tonga" coordinates="1908,874" flag="173,266" thanks="thank you..." />
+		<item countryiso="CO" countryname="Colombia" coordinates="438,700" flag="202,266" thanks="thank you..." />
+		<item countryiso="CY" countryname="Cyprus" coordinates="1061,518" flag="231,266" thanks="thank you..." />
+		<item countryiso="GW" countryname="Guinea Bissau" coordinates="771,646" flag="260,266" thanks="thank you..." />
+		<item countryiso="CM" countryname="Cameroon" coordinates="928,690" flag="00,289" thanks="thank you..." />
+		<item countryiso="SN" countryname="Senegal" coordinates="791,644" flag="00,0" thanks="thank you..." />
+		<item countryiso="DO" countryname="Dominican Republic" coordinates="461,612" flag="28,289" thanks="thank you..." />
+		<item countryiso="TN" countryname="Tunisia" coordinates="920,522" flag="57,289" thanks="thank you..." />
+		<item countryiso="GN" countryname="Guinea Conakry" coordinates="783,663" flag="159,242" thanks="thank you..." />
+		<item countryiso="ZW" countryname="Zimbabwe" coordinates="1035,818" flag="87,290" thanks="thank you..." />
+		<item countryiso="PS" countryname="Palestine" coordinates="1073,531" flag="115,291" thanks="thank you..." />
+		<item countryiso="BJ" countryname="Benine" coordinates="873,668" flag="141,290" thanks="thank you..." />
+		<item countryiso="CG" countryname="Congo Brazzaville" coordinates="962,734" flag="168,291" thanks="thank you..." />
+		<item countryiso="SZ" countryname="Swaziland" coordinates="1049,858" flag="193,291" thanks="thank you..." />
+		<item countryiso="YE" countryname="Yemen" coordinates="1139,632" flag="217,291" thanks="thank you..." />
+		<item countryiso="ZN" countryname="Zambia" coordinates="1021,787" flag="241,291" thanks="thank you..." />
+		<item countryiso="MG" countryname="Madagascar" coordinates="1038,833" flag="266,292" thanks="thank you..." />
+		<item countryiso="NP" countryname="Nepal" coordinates="1340,563" flag="31,312" thanks="thank you..." />
+		<item countryiso="BD" countryname="Bangladesh" coordinates="1378,583" flag="0,312" thanks="thank you..." />
+		<item countryiso="MA" countryname="Morocco" coordinates="823,544" flag="0,312" thanks="thank you..." />
+		<item countryiso="UA" countryname="Ukraine" coordinates="1027,437" flag="0,312" thanks="thank you..." />
+		<item countryiso="AL" countryname="Albania" coordinates="984,484" flag="0,312" thanks="thank you..." />
+		<item countryiso="AR" countryname="Argentina" coordinates="500,879" flag="0,312" thanks="thank you..." />
+		<item countryiso="BT" countryname="Bhutan" coordinates="1398,567" flag="0,312" thanks="thank you..." />
+		<item countryiso="CF" countryname="Central African Republic" coordinates="986,679" flag="0,312" thanks="thank you..." />
+		<item countryiso="CL" countryname="Chile" coordinates="455,867" flag="0,312" thanks="thank you..." />
+		<item countryiso="CR" countryname="Costa Rica" coordinates="374,666" flag="0,312" thanks="thank you..." />
+		<item countryiso="CW" countryname="Curacao" coordinates="457,652" flag="0,312" thanks="thank you..." />
+		<item countryiso="EE" countryname="Estonia" coordinates="1011,378" flag="0,312" thanks="thank you..." />
+		<item countryiso="GE" countryname="Georgia" coordinates="1113,475" flag="0,312" thanks="thank you..." />
+		<item countryiso="GM" countryname="Gambia" coordinates="781,649" flag="0,312" thanks="thank you..." />
+		<item countryiso="PR" countryname="Puerto Rico" coordinates="476,615" flag="0,312" thanks="thank you..." />
+		<item countryiso="RS" countryname="Serbia" coordinates="984,467" flag="0,312" thanks="thank you..." />
+		<item countryiso="SO" countryname="Somaliland" coordinates="1145,662" flag="0,312" thanks="thank you..." />
+		<item countryiso="ZM" countryname="Zambia" coordinates="1025,777" flag="0,312" thanks="thank you..." />
+
+		
+		
+		
+		
+	
+	
+
+                            
+   <!-- 
+    <data countryiso="KN" countryname="St. Kitts"                   coordinates="581:465"></data> 
+    <data countryiso="TO" countryname="Tonga"                   coordinates="1855:671"></data>
+    <data countryiso="VC" countryname="St. Vincent"                 coordinates="583:468"></data>
+        -->        
+	</countries>
+	<topups assets="topups">
+	   <item id="1" asset="0,0" regpoint="73,48" center="73" color="0x8DF608" ylogo="13" yoperator="5" yamount="17" amountwidth="88" operatorwidth="88" operatorfontsize="8" />
+	   <item id="2" asset="159,0" regpoint="74,48" center="73" color="0x003371" ylogo="13" yoperator="13" yamount="27" amountwidth="88" operatorwidth="88" operatorfontsize="11" />
+	</topups>
+      <sounds>
+	   <item id="1" source="assets/sounds/topups/sfx_1.mp3" />
+	   <item id="2" source="assets/sounds/topups/sfx_2.mp3" />
+	   <item id="3" source="assets/sounds/topups/sfx_2.mp3" />
+	   <item id="4" source="assets/sounds/topups/sfx_1.mp3" />
+	   <item id="5" source="assets/sounds/topups/DING! double_mixdown11.mp3" />
+	   <item id="6" source="assets/sounds/topups/sfx_ILD.v02_mixdown.mp3" />
+      </sounds>
+	<conditions>
+        <item default="true" topup="1" sounds="1,2"/>
+        <item operators="dc,bd" topup="2" />
+        <item from="MX" sounds="4"/>
+	</conditions>
+	<help>
+	   <![CDATA[<p>All install files are available from: <a href="http://www.ezescreens.com/install/">http://www.ezescreens.com/install/</a></b> 
+	    </p>]]>
+	</help>
+    <locale>
+        <lang id="en">
+            <months>
+                <item id="1">January</item>
+                <item id="2">February</item>
+                <item id="3">March</item>
+                <item id="4">April</item>
+                <item id="5">May</item>
+                <item id="6">June</item>                                                
+                <item id="7">July</item>                                                
+                <item id="8">August</item>                                                
+                <item id="9">September</item>                                                
+                <item id="10">October</item>                                                
+                <item id="11">November</item>                                                
+                <item id="12">December</item>                                                
+            </months>
+        </lang>
+    </locale>
+    <!--
+    <timezones>
+        <item offset="0" dst="">Dublin, Edinburgh, Lisbon, London</item>
+        <item offset="-12" dst="">International Date Line West</item>
+        <item offset="-11" dst="">Midway Island, Samoa</item>
+        <item offset="-10" dst="">Hawaii</item>
+        <item offset="-9" dst="">Alaska</item>
+        <item offset="-8" dst="">Pacific Time (US &amp;amp; Canada), Tijuana, Baja California</item>
+        <item offset="-7" dst="">Arizona, Mountain Time (US &amp;amp; Canada)</item>
+        <item offset="0" dst="">Dublin, Edinburgh, Lisbon, London</item>
+        <item offset="0" dst="">Dublin, Edinburgh, Lisbon, London</item>
+        <item offset="0" dst="">Dublin, Edinburgh, Lisbon, London</item>
+    </timezones>
+    -->
+</configuration>
